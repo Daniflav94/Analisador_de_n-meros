@@ -22,6 +22,7 @@ function adicionar() {
         window.alert('ERRO! Valor inválido.')
      } 
     num.value = ''
+    num.focus()
 }
 
 function analisar() {
@@ -30,9 +31,7 @@ function analisar() {
     let menor = listagem[0]
     let soma = 0
     
-    analisador.innerHTML = ''
-
-
+   
     for (let i in listagem){
         if (listagem[i] > maior){
             maior = listagem[i]
