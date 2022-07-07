@@ -17,17 +17,15 @@ function adicionar() {
      if (isNumero(num.value)){
         listagem.push(numero)
         lista.innerHTML += `Valor ${numero} adicionado. <br>` 
-    
-        return listagem
+  
      }else {
-        lista.innerHTML = 'ERRO! Valor inválido.'
+        window.alert('ERRO! Valor inválido.')
      }    
 }
 
 function analisar() {
       
     let maior = 0;
-    listagem.sort()
     let menor = listagem[0]
     let soma = 0
     
