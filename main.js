@@ -20,7 +20,8 @@ function adicionar() {
   
      }else {
         window.alert('ERRO! Valor inválido.')
-     }    
+     } 
+    num.value = ''
 }
 
 function analisar() {
