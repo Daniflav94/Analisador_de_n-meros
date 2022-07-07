@@ -12,14 +12,6 @@ function isNumero(n){
     }
 }
 
-/*function inLista(n, lista){
-    if (lista.indexOf(Number(n)) != -1){
-        return true
-    }else {
-        return false
-    }
-}*/
-
 function adicionar() { 
     let numero = Number(num.value)  
      if (isNumero(num.value)){
