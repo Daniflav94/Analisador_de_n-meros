@@ -16,7 +16,9 @@ function adicionar() {
     let numero = Number(num.value)  
      if (isNumero(num.value)){
         listagem.push(numero)
-        lista.innerHTML += `Valor ${numero} adicionado. <br>` 
+        lista.innerHTML += `Valor ${numero} adicionado. <br>`
+        
+        analisador.innerHTML = ''
   
      }else {
         window.alert('ERRO! Valor inválido.')
